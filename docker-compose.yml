@@ -8,4 +8,6 @@ services:
     volumes:
       - .:/workspace
     working_dir: /workspace
+    environment:
+       - HF_TOKEN=${HF_TOKEN}
     command: python app.py
