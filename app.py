@@ -64,7 +64,7 @@ agent = CodeAgent(
     name=None,
     description=None,
     prompt_templates=prompt_templates,
-    additional_authorized_imports=["matplotlib.pyplot", "IPython.display"]
+    additional_authorized_imports=["matplotlib.pyplot", "IPython.display", "PIL", "PIL.Image"]
 )
 
 
